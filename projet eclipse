@@ -1,0 +1,114 @@
+package algoritimos;
+
+public class Pessoa {
+	
+	private String nome;
+	private String endereco;
+	private String Formapagamento;
+	private int qtde;
+	private double preco;
+	
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	
+	public String getEndereco() {
+		return endereco;
+	}
+
+	
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+
+	
+	public String getFormapagamento() {
+		return Formapagamento;
+	}
+
+
+	public void setFormapagamento(String formapagamento) {
+		Formapagamento = formapagamento;
+	}
+
+
+	public int getQtde() {
+		return qtde;
+	}
+
+
+	public void setQtde(int qtde) {
+		this.qtde = qtde;
+	}
+
+	
+	public double getPreco() {
+		return preco;
+	}
+
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+   
+
+	
+	public Pessoa() {
+		super();
+		this.nome = nome;
+		this.endereco = endereco;
+		this.qtde = qtde;
+		this.cpf = cpf;
+		this.cnpj = cnpj;
+		this.preco = preco;
+		
+	}
+
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}
+ 
+package algoritimos;
+
+    
+public class pessoajuritica {
+     
+	private int cnpj;
+	
+	public int getCnpj() {
+		return cnpj;
+	}
+
+
+	public void setCnpj(int cnpj) {
+		this.cnpj = cnpj;
+	}
+}
+
+package algoritimos;
+
+public class pessoafisica {
+
+	private int cpf;
+	
+	public int getCpf() {
+		return cpf;
+	}
+
+
+	public void setCpf(int cpf) {
+		this.cpf = cpf;
+	}
+}
